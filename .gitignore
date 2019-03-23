@@ -1,2 +1,5 @@
 /Pods
 .DS_Store
+/TapAlertViewController.xcodeproj/xcuserdata
+/TapAlertViewController.xcodeproj/project.xcworkspace/xcuserdata
+/TapAlertViewController.xcworkspace/xcuserdata
