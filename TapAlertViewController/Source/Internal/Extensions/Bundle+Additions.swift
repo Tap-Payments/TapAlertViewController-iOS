@@ -12,7 +12,7 @@ internal extension Bundle {
 	// MARK: - Internal -
 	// MARK: Propeties
 	
-	internal static let tapAlertViewControllerResources: Bundle = {
+	static let tapAlertViewControllerResources: Bundle = {
 		
 		guard let result = Bundle(for: TapAlertViewController.self).tap_childBundle(named: Constants.tapAlertViewControllerResourcesBundleName) else {
 			

@@ -12,5 +12,5 @@ internal extension CGFloat {
 	// MARK: - Internal -
 	// MARK: Properties
 	
-	internal static let tap_alertButtonFontSize: CGFloat = 17.0
+	static let tap_alertButtonFontSize: CGFloat = 17.0
 }

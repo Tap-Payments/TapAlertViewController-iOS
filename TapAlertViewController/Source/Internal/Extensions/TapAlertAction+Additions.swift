@@ -15,7 +15,7 @@ internal extension TapAlertAction {
 	// MARK: - Internal -
 	// MARK: Properties
 	
-	internal weak var button: UIButton? {
+	weak var button: UIButton? {
 		
 		get {
 			
@@ -31,7 +31,7 @@ internal extension TapAlertAction {
 	
 	// MARK: Methods
 	
-	internal func updateButtonStyle() {
+	func updateButtonStyle() {
 		
 		guard let nonnullButton = self.button else { return }
 		

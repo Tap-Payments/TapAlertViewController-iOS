@@ -13,7 +13,7 @@ internal extension CAKeyframeAnimation {
 	// MARK: - Internal -
 	// MARK: Methods
 	
-	internal static func tap_alertAppearance(with duration: TimeInterval) -> CAKeyframeAnimation {
+	static func tap_alertAppearance(with duration: TimeInterval) -> CAKeyframeAnimation {
 		
 		let animation = CAKeyframeAnimation(keyPath: Constants.transformKeyPath)
 		animation.values = [
@@ -30,7 +30,7 @@ internal extension CAKeyframeAnimation {
 		return animation
 	}
 	
-	internal static func tap_alertDisappearance(with duration: TimeInterval) -> CAKeyframeAnimation {
+	static func tap_alertDisappearance(with duration: TimeInterval) -> CAKeyframeAnimation {
 		
 		let animation = CAKeyframeAnimation(keyPath: Constants.opacityKeyPath)
 		

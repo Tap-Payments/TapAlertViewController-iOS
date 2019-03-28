@@ -2,11 +2,11 @@ Pod::Spec.new do |tapAlertViewController|
 	
 	tapAlertViewController.platform					= :ios
 	tapAlertViewController.ios.deployment_target	= '8.0'
-	tapAlertViewController.swift_version			= '4.2'
+	tapAlertViewController.swift_versions			= ['4.2', '5.0']
 	tapAlertViewController.name						= 'TapAlertViewController'
 	tapAlertViewController.summary					= 'Custom alert view controller for iOS'
 	tapAlertViewController.requires_arc				= true
-	tapAlertViewController.version					= '1.0'
+	tapAlertViewController.version					= '1.0.1'
 	tapAlertViewController.license					= { :type => 'MIT', :file => 'LICENSE' }
 	tapAlertViewController.author					= { 'Tap Payments' => 'hello@tap.company' }
 	tapAlertViewController.homepage					= 'https://github.com/Tap-Payments/TapAlertViewController-iOS'
@@ -23,4 +23,3 @@ Pod::Spec.new do |tapAlertViewController|
 	tapAlertViewController.dependency	'TapVisualEffectView'
 	
 end
-

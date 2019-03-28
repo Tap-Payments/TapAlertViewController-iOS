@@ -1,77 +1,77 @@
 PODS:
-  - TapAdditionsKit/CoreGraphics/CGContext (1.2.2)
-  - TapAdditionsKit/CoreGraphics/CGImage (1.2.2):
+  - TapAdditionsKit/CoreGraphics/CGContext (1.3.1)
+  - TapAdditionsKit/CoreGraphics/CGImage (1.3.1):
     - TapAdditionsKit/CoreGraphics/CGContext
-  - TapAdditionsKit/CoreGraphics/CGSize (1.2.2):
+  - TapAdditionsKit/CoreGraphics/CGSize (1.3.1):
     - TapAdditionsKit/SwiftStandartLibrary/Numeric
-  - TapAdditionsKit/Foundation/Bundle (1.2.2)
-  - TapAdditionsKit/Foundation/Locale (1.2.2)
-  - TapAdditionsKit/Foundation/NumberFormatter (1.2.2)
-  - TapAdditionsKit/ObjectiveC/NSObject (1.2.2)
-  - TapAdditionsKit/QuartzCore/CALayer (1.2.2)
-  - TapAdditionsKit/SwiftStandartLibrary/Array (1.2.2):
+  - TapAdditionsKit/Foundation/Bundle (1.3.1)
+  - TapAdditionsKit/Foundation/Locale (1.3.1)
+  - TapAdditionsKit/Foundation/NumberFormatter (1.3.1)
+  - TapAdditionsKit/ObjectiveC/NSObject (1.3.1)
+  - TapAdditionsKit/QuartzCore/CALayer (1.3.1)
+  - TapAdditionsKit/SwiftStandartLibrary/Array (1.3.1):
     - TapAdditionsKit/SwiftStandartLibrary/Numeric
-  - TapAdditionsKit/SwiftStandartLibrary/Int (1.2.2)
-  - TapAdditionsKit/SwiftStandartLibrary/Numeric (1.2.2)
-  - TapAdditionsKit/SwiftStandartLibrary/Sequence (1.2.2)
-  - TapAdditionsKit/SwiftStandartLibrary/String (1.2.2):
+  - TapAdditionsKit/SwiftStandartLibrary/Int (1.3.1)
+  - TapAdditionsKit/SwiftStandartLibrary/Numeric (1.3.1)
+  - TapAdditionsKit/SwiftStandartLibrary/Sequence (1.3.1)
+  - TapAdditionsKit/SwiftStandartLibrary/String (1.3.1):
     - TapAdditionsKit/Foundation/Locale
     - TapAdditionsKit/Foundation/NumberFormatter
     - TapAdditionsKit/SwiftStandartLibrary/Int
-  - TapAdditionsKit/Tap/ClassProtocol (1.2.2)
-  - TapAdditionsKit/Tap/TypeAlias (1.2.2)
-  - TapAdditionsKit/UIKit/UIColor (1.2.2):
+  - TapAdditionsKit/Tap/ClassProtocol (1.3.1)
+  - TapAdditionsKit/Tap/TypeAlias (1.3.1)
+  - TapAdditionsKit/UIKit/UIColor (1.3.1):
     - TapAdditionsKit/SwiftStandartLibrary/Array
     - TapAdditionsKit/SwiftStandartLibrary/Int
     - TapAdditionsKit/SwiftStandartLibrary/String
-  - TapAdditionsKit/UIKit/UIDevice (1.2.2)
-  - TapAdditionsKit/UIKit/UIImage (1.2.2):
+  - TapAdditionsKit/UIKit/UIDevice (1.3.1)
+  - TapAdditionsKit/UIKit/UIImage (1.3.1):
     - TapAdditionsKit/CoreGraphics/CGImage
     - TapAdditionsKit/CoreGraphics/CGSize
     - TapAdditionsKit/SwiftStandartLibrary/Array
     - TapAdditionsKit/SwiftStandartLibrary/Sequence
     - TapAdditionsKit/UIKit/UIColor
-  - TapAdditionsKit/UIKit/UIResponder (1.2.2):
+  - TapAdditionsKit/UIKit/UIResponder (1.3.1):
     - TapAdditionsKit/Tap/TypeAlias
     - TapAdditionsKit/UIKit/UIView
-  - TapAdditionsKit/UIKit/UIScreen (1.2.2)
-  - TapAdditionsKit/UIKit/UIView (1.2.2):
-    - TapAdditionsKit/UIKit/UIView/AnimationOptions (= 1.2.2)
-    - TapAdditionsKit/UIKit/UIView/KeyframeAnimationOptions (= 1.2.2)
-    - TapAdditionsKit/UIKit/UIView/UIView (= 1.2.2)
-  - TapAdditionsKit/UIKit/UIView/AnimationOptions (1.2.2)
-  - TapAdditionsKit/UIKit/UIView/KeyframeAnimationOptions (1.2.2)
-  - TapAdditionsKit/UIKit/UIView/UIView (1.2.2):
+  - TapAdditionsKit/UIKit/UIScreen (1.3.1)
+  - TapAdditionsKit/UIKit/UIView (1.3.1):
+    - TapAdditionsKit/UIKit/UIView/AnimationOptions (= 1.3.1)
+    - TapAdditionsKit/UIKit/UIView/KeyframeAnimationOptions (= 1.3.1)
+    - TapAdditionsKit/UIKit/UIView/UIView (= 1.3.1)
+  - TapAdditionsKit/UIKit/UIView/AnimationOptions (1.3.1)
+  - TapAdditionsKit/UIKit/UIView/KeyframeAnimationOptions (1.3.1)
+  - TapAdditionsKit/UIKit/UIView/UIView (1.3.1):
     - TapAdditionsKit/ObjectiveC/NSObject
     - TapAdditionsKit/QuartzCore/CALayer
     - TapAdditionsKit/SwiftStandartLibrary/String
     - TapAdditionsKit/Tap/TypeAlias
     - TapAdditionsKit/UIKit/UIImage
     - TapAdditionsKit/UIKit/UIScreen
-  - TapAdditionsKit/UIKit/UIViewController (1.2.2):
+  - TapAdditionsKit/UIKit/UIViewController (1.3.1):
     - TapAdditionsKit/ObjectiveC/NSObject
     - TapAdditionsKit/Tap/TypeAlias
     - TapAdditionsKit/UIKit/UIResponder
     - TapAdditionsKit/UIKit/UIView
     - TapAdditionsKit/UIKit/UIWindow
     - TapAdditionsKit/UIKit/UIWindow/Level
-  - TapAdditionsKit/UIKit/UIWindow (1.2.2):
-    - TapAdditionsKit/UIKit/UIWindow/Level (= 1.2.2)
-    - TapAdditionsKit/UIKit/UIWindow/UIWindow (= 1.2.2)
-  - TapAdditionsKit/UIKit/UIWindow/Level (1.2.2)
-  - TapAdditionsKit/UIKit/UIWindow/UIWindow (1.2.2):
+  - TapAdditionsKit/UIKit/UIWindow (1.3.1):
+    - TapAdditionsKit/UIKit/UIWindow/Level (= 1.3.1)
+    - TapAdditionsKit/UIKit/UIWindow/UIWindow (= 1.3.1)
+  - TapAdditionsKit/UIKit/UIWindow/Level (1.3.1)
+  - TapAdditionsKit/UIKit/UIWindow/UIWindow (1.3.1):
     - TapAdditionsKit/UIKit/UIWindow/Level
-  - TapNibView (1.0.2):
-    - TapAdditionsKit/ObjectiveC/NSObject (>= 1.2)
-    - TapAdditionsKit/Tap/ClassProtocol (>= 1.2)
-    - TapAdditionsKit/UIKit/UIView (>= 1.2)
-  - TapVisualEffectView (1.1):
-    - TapAdditionsKit/Foundation/Bundle (>= 1.2)
-    - TapAdditionsKit/ObjectiveC/NSObject (>= 1.2)
-    - TapAdditionsKit/UIKit/UIColor (>= 1.2)
-    - TapAdditionsKit/UIKit/UIDevice (>= 1.2)
-    - TapAdditionsKit/UIKit/UIView (>= 1.2)
-    - TapNibView (>= 1.0.2)
+  - TapNibView (1.0.3):
+    - TapAdditionsKit/ObjectiveC/NSObject (>= 1.3.1)
+    - TapAdditionsKit/Tap/ClassProtocol (>= 1.3.1)
+    - TapAdditionsKit/UIKit/UIView (>= 1.3.1)
+  - TapVisualEffectView (1.1.1):
+    - TapAdditionsKit/Foundation/Bundle (>= 1.3.1)
+    - TapAdditionsKit/ObjectiveC/NSObject (>= 1.3.1)
+    - TapAdditionsKit/UIKit/UIColor (>= 1.3.1)
+    - TapAdditionsKit/UIKit/UIDevice (>= 1.3.1)
+    - TapAdditionsKit/UIKit/UIView (>= 1.3.1)
+    - TapNibView (>= 1.0.3)
 
 DEPENDENCIES:
   - TapAdditionsKit/Foundation/Bundle
@@ -88,10 +88,10 @@ SPEC REPOS:
     - TapVisualEffectView
 
 SPEC CHECKSUMS:
-  TapAdditionsKit: 90574b9a579af6c521616ccd9703e00b23ff25b4
-  TapNibView: 3f789102e629d216047f2beeb709a4d00df22e74
-  TapVisualEffectView: ea51a01ff9712389468ac5b30b196116c7d87389
+  TapAdditionsKit: 4df3330d76ad3ce38816c0a678670d5389607f49
+  TapNibView: 018b4b936f09444ccac2bee42a483acae6e586ff
+  TapVisualEffectView: 197e11a5c640b960eff9c5043c3860fdd8a650f1
 
 PODFILE CHECKSUM: 62d3cf545af36fe2735a77bf4a3a584994ea26aa
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.7.0.beta.3

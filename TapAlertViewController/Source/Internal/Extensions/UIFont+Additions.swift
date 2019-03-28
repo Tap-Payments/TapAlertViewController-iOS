@@ -12,8 +12,8 @@ internal extension UIFont {
 	// MARK: - Internal -
 	// MARK: Properties
 	
-	internal static let tap_alertNormalButtonFont: UIFont	= .systemFont(ofSize: .tap_alertButtonFontSize)
-	internal static let tap_alertBoldButtonFont: UIFont		= {
+	static let tap_alertNormalButtonFont: UIFont	= .systemFont(ofSize: .tap_alertButtonFontSize)
+	static let tap_alertBoldButtonFont: UIFont		= {
 		
 		if #available(iOS 8.2, *) {
 			

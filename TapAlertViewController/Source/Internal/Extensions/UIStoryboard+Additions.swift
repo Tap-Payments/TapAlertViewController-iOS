@@ -12,7 +12,7 @@ internal extension UIStoryboard {
 	// MARK: - Internal -
 	// MARK: Properties
 	
-	internal static let tap_controllers = UIStoryboard(name: Constants.controllersStoryboardName, bundle: .tapAlertViewControllerResources)
+	static let tap_controllers = UIStoryboard(name: Constants.controllersStoryboardName, bundle: .tapAlertViewControllerResources)
 	
 	// MARK: - Private -
 	
