@@ -15,6 +15,11 @@ import class	UIKit.UIStoryboard.UIStoryboard
 import class	UIKit.UITableView.UITableView
 import class	UIKit.UIView.UIView
 import class	UIKit.UIViewController.UIViewController
+import class	UIKit.UIWindow.UIWindow
+
+#if !swift(>=4.2)
+import var		UIKit.UIWindow.UIWindowLevelStatusBar
+#endif
 
 /// Replacement for UIAlertViewController that looks like the native one, but allows to customize.
 public class TapAlertViewController: UIViewController {
@@ -116,7 +121,13 @@ public class TapAlertViewController: UIViewController {
 		
 		DispatchQueue.main.async {
 			
-			self.tap_showOnSeparateWindow(below: .statusBar, using: appearanceClosure)
+			#if swift(>=4.2)
+			let windowLevel: UIWindow.Level	= .statusBar
+			#else
+			let windowLevel: UIWindow.Level = UIWindowLevelStatusBar
+			#endif
+			
+			self.tap_showOnSeparateWindow(below: windowLevel, using: appearanceClosure)
 		}
 	}
 	

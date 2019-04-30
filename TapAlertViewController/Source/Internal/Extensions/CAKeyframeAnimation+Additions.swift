@@ -8,6 +8,10 @@
 import class	QuartzCore.CAAnimation.CAKeyframeAnimation
 import func		QuartzCore.CATransform3D.CATransform3DMakeScale
 
+#if !swift(>=4.2)
+import var			QuartzCore.CAMediaTiming.kCAFillModeForwards
+#endif
+
 internal extension CAKeyframeAnimation {
 	
 	// MARK: - Internal -
@@ -23,7 +27,13 @@ internal extension CAKeyframeAnimation {
 		]
 		
 		animation.keyTimes = [0.0, 1.0]
+		
+		#if swift(>=4.2)
 		animation.fillMode = .forwards
+		#else
+		animation.fillMode = kCAFillModeForwards
+		#endif
+		
 		animation.isRemovedOnCompletion = false
 		animation.duration = duration
 		
@@ -37,7 +47,13 @@ internal extension CAKeyframeAnimation {
 		animation.values = [1.0, 0.0]
 		
 		animation.keyTimes = [0.0, 1.0]
+		
+		#if swift(>=4.2)
 		animation.fillMode = .forwards
+		#else
+		animation.fillMode = kCAFillModeForwards
+		#endif
+		
 		animation.isRemovedOnCompletion = false
 		animation.duration = duration
 		
